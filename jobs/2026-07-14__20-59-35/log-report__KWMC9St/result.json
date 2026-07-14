@@ -1,0 +1,108 @@
+{
+    "id": "2ff18e20-7777-4235-929d-0fbf33853a93",
+    "task_name": "dynamo/log-report",
+    "trial_name": "log-report__KWMC9St",
+    "trial_uri": "file:///C:/Users/sumit/Downloads/Compressed/fix-task-broken/log-report/jobs/2026-07-14__20-59-35/log-report__KWMC9St",
+    "task_id": {
+        "path": "."
+    },
+    "source": null,
+    "task_checksum": "2a305306e47bec1288f416e09c3bef6e08b7ecc58fbb28dbec3bebd02d78a38d",
+    "config": {
+        "task": {
+            "path": ".",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "log-report__KWMC9St",
+        "trials_dir": "jobs\\2026-07-14__20-59-35",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "352fcae1-e02c-4387-abb7-ed702dbbd370"
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-07-14T15:29:36.752669Z",
+    "finished_at": "2026-07-14T15:30:01.821315Z",
+    "environment_setup": {
+        "started_at": "2026-07-14T15:29:36.967582Z",
+        "finished_at": "2026-07-14T15:29:48.135910Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-07-14T15:29:48.136034Z",
+        "finished_at": "2026-07-14T15:29:48.136286Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-07-14T15:29:48.136439Z",
+        "finished_at": "2026-07-14T15:29:48.136591Z"
+    },
+    "verifier": {
+        "started_at": "2026-07-14T15:29:48.753865Z",
+        "finished_at": "2026-07-14T15:29:50.587937Z"
+    },
+    "step_results": null
+}
